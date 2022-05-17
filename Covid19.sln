@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CA71EBF3-8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19Console", "Test\Covid19Console\Covid19Console.csproj", "{62BA23E6-B1AF-4BEB-A1F3-30343F4E097C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19WPFTest", "Test\Covid19WPFTest\Covid19WPFTest.csproj", "{6A9E2EB2-3428-43BE-B3EF-E76BEC2B10E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{62BA23E6-B1AF-4BEB-A1F3-30343F4E097C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62BA23E6-B1AF-4BEB-A1F3-30343F4E097C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62BA23E6-B1AF-4BEB-A1F3-30343F4E097C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9E2EB2-3428-43BE-B3EF-E76BEC2B10E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9E2EB2-3428-43BE-B3EF-E76BEC2B10E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9E2EB2-3428-43BE-B3EF-E76BEC2B10E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9E2EB2-3428-43BE-B3EF-E76BEC2B10E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{62BA23E6-B1AF-4BEB-A1F3-30343F4E097C} = {CA71EBF3-8CC6-4C77-B4E4-20359AB4D9B2}
+		{6A9E2EB2-3428-43BE-B3EF-E76BEC2B10E7} = {CA71EBF3-8CC6-4C77-B4E4-20359AB4D9B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81A45447-D313-4535-86C5-98111D43FB79}
