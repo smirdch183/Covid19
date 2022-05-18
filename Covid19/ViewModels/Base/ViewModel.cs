@@ -34,6 +34,7 @@ namespace Covid19.ViewModels.Base
         protected virtual void Dispose(bool Disposing)
         {
             if (!Disposing || _Disposed) return;
+            _Disposed = true;
         }
     }
 }
